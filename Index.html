@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bundle & Save</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="bundle-container">
+    <header class="bundle-header">
+      <h1>Bundle & Save</h1>
+    </header>
+
+    <!-- Option 1 -->
+    <div class="option-box selected expanded" data-id="1">
+      <div class="option-header">
+        <div class="option-header-left">
+          <input type="radio" id="option1" name="bundle_option" value="1" checked>
+          <div class="option-title-price">
+            <span class="title">1 Pair</span>
+            <span class="price">DKK 195.00</span>
+          </div>
+        </div>
+        <div class="discount">50% OFF</div>
+      </div>
+      <div class="expandable-content">
+        <div class="variant-selector">
+          <span>#1</span>
+          <div class="variant-dropdowns">
+            <select name="size1_1" id="size1_1">
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+            </select>
+            <select name="color1_1" id="color1_1">
+              <option value="Colour">Colour</option>
+              <option value="Black">Black</option>
+              <option value="White">White</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Option 2 -->
+    <div class="option-box" data-id="2">
+      <div class="option-header">
+        <div class="option-header-left">
+          <input type="radio" id="option2" name="bundle_option" value="2">
+          <div class="option-title-price">
+            <span class="title">2 Pair</span>
+            <div>
+              <span class="price">DKK 345.00</span>
+              <span class="original-price">DKK 195.00</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <span class="badge">Most Popular</span>
+          <span class="discount">40% OFF</span>
+        </div>
+      </div>
+      <div class="expandable-content">
+        <div class="variant-selector">
+          <span>#1</span>
+          <div class="variant-dropdowns">
+            <select name="size2_1" id="size2_1">
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+            </select>
+            <select name="color2_1" id="color2_1">
+              <option value="Colour">Colour</option>
+              <option value="Black">Black</option>
+              <option value="White">White</option>
+            </select>
+          </div>
+        </div>
+        <div class="variant-selector">
+          <span>#2</span>
+          <div class="variant-dropdowns">
+            <select name="size2_2" id="size2_2">
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+            </select>
+            <select name="color2_2" id="color2_2">
+              <option value="Colour">Colour</option>
+              <option value="Black">Black</option>
+              <option value="White">White</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Option 3 -->
+    <div class="option-box" data-id="3">
+      <div class="option-header">
+        <div class="option-header-left">
+          <input type="radio" id="option3" name="bundle_option" value="3">
+          <div class="option-title-price">
+            <span class="title">3 Pair</span>
+            <span class="price">DKK 528.00</span>
+          </div>
+        </div>
+        <div class="discount">60% OFF</div>
+      </div>
+      <div class="expandable-content">
+        <div class="variant-selector">
+          <span>#1</span>
+          <div class="variant-dropdowns">
+            <select name="size3_1" id="size3_1">
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+            </select>
+            <select name="color3_1" id="color3_1">
+              <option value="Colour">Colour</option>
+              <option value="Black">Black</option>
+              <option value="White">White</option>
+            </select>
+          </div>
+        </div>
+        <div class="variant-selector">
+          <span>#2</span>
+          <div class="variant-dropdowns">
+            <select name="size3_2" id="size3_2">
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+            </select>
+            <select name="color3_2" id="color3_2">
+              <option value="Colour">Colour</option>
+              <option value="Black">Black</option>
+              <option value="White">White</option>
+            </select>
+          </div>
+        </div>
+        <div class="variant-selector">
+          <span>#3</span>
+          <div class="variant-dropdowns">
+            <select name="size3_3" id="size3_3">
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+            </select>
+            <select name="color3_3" id="color3_3">
+              <option value="Colour">Colour</option>
+              <option value="Black">Black</option>
+              <option value="White">White</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="shipping-total">
+        <span class="shipping">Free 2 Day Shipping</span>
+        <span class="total">Total : DKK 360.00</span>
+      </div>
+      <button class="add-to-cart-btn">+ Add to Cart</button>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
